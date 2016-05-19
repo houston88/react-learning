@@ -4,7 +4,7 @@
   "description": "Learing basic react.",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack -d --watch",
+    "dev": "node node_modules/.bin/webpack-dev-server --content-base public",
     "build": "webpack -p"
   },
   "author": "Houston Harris",
@@ -16,6 +16,7 @@
     "babel-preset-react": "^6.5.0",
     "css-loader": "^0.23.1",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.0"
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
   }
 }
